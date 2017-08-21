@@ -4,7 +4,7 @@ import tensorflow as tf
 import xlrd
 
 DATA_FILE = "/home/ubuntu/tfproject/graphs/slr05.xlsx"
-# Step 1: read in data from the .xls file
+# Step 1: read in data from the .xlsx file
 book = xlrd.open_workbook(DATA_FILE, encoding_override="utf-8")
 sheet = book.sheet_by_index(0)
 data = np.asarray([sheet.row_values(i) for i in range(1, sheet.nrows)])
