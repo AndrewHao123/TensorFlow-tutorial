@@ -1,3 +1,8 @@
+
+这里有美国民权委员会收集的数据集（http://college.cengage.com/mathematics/brase/understandable_statistics/7e/students/datasets/slr/frames/slr05.html）
+（X = 每1000住房单元的火灾数，Y = 每1000人口的盗贼数）
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
