@@ -38,6 +38,6 @@ with tf.Session() as sess:
             # Session runs train_op to minimize loss
                 sess.run(optimizer, feed_dict={X: x, Y:y})
     # Step 9: output the values of w and b
-    w_value, b_value, loss = print (sess.run([w, b, loss]))
+    w_value, u_value, b_value, loss = print (sess.run([w, u, b, loss]))
         
      
